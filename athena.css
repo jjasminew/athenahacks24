@@ -1,0 +1,30 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #EBC9FF;
+}
+
+.chatBoxAlign{
+  display: flex;
+  justify-content: center;
+}
+
+.chatBox{
+  width: 1000px; /* Set the desired width */
+  height: 600px; /* Set the desired height */
+  overflow-y: auto; /* Add a scrollbar if the content overflows vertically */
+  padding: 20px; /* Add padding as needed */
+  
+  background: #fff;
+}
+
+.chatFormAlign{
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#userInput{
+  width: 1000;
+  
+}
