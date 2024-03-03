@@ -28,7 +28,7 @@ function sendMessage() {
 
   const options = {
     method: 'POST',
-    url: 'http://localhost:8001/cgpt',
+    url: 'https://02ef-207-151-53-58.ngrok-free.app/cgpt',
     headers: {
         'Content-Type': 'application/json',
     },
