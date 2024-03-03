@@ -18,6 +18,8 @@ def dfs():
 @app.route('/cgpt', methods=["POST"])
 def index():
   r = requests.post('https://api.openai.com/v1/chat/completions', headers={'Authorization': 'Bearer ' + key}, json=request.get_json())
+
+  print(r.json())
   return jsonify(r.json())
 
 
