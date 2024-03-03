@@ -4,7 +4,7 @@ body {
     color: #3E3163;
     text-align: center;
     gap: 20em;
-    padding: 30px;
+    margin-bottom: 70px;
 }
   
 .title {
@@ -30,7 +30,6 @@ body {
 
 .container{
     display: flex;
-    
     justify-content: center;
     gap: 2em;
   }
@@ -38,10 +37,10 @@ body {
   .info{
     font-family: "Lato", sans-serif;
     color: #F7F7F7;
-    text-align: center;
     gap: 20em;
     font-size: 25px;
   }
+
   .ul {
     list-style-type: circle;
     margin: 0;
@@ -50,16 +49,18 @@ body {
 
   li{
     margin: 5px 0;
-    line-height: 50px;
+    line-height: 35px;
+    margin-bottom: 20px;
     margin-right: 25px;
     font-family: "Lato", sans-serif;
   }
+
   .shape{
-    text-align:center;
+    text-align: left;
     background-color:#3E3163;
     box-shadow: 5px 5px 25px #3E3163;
     width:900px;
-    height:560px;
+    height:530px;
     line-height:60px;
     color: #F7F7F7;
     padding: 10px 30px;

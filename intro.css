@@ -21,9 +21,10 @@ body {
 }
 
 .bubbly-button{
+  font-family: "Lato";
   font-family: 'Helvetica', 'Arial', sans-serif;
   display: inline-block;
-  font-size: 1em;
+  font-size: 18px;
   padding: 1em 2em;
   margin-top: 50px;
  /* margin-bottom: 60px; */
@@ -100,7 +101,6 @@ body {
     }
   }
 }
-
 
 @keyframes topBubbles {
   0%{
