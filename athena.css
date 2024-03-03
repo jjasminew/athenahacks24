@@ -13,7 +13,6 @@ body {
   height: 600px; /* Set the desired height */
   overflow-y: auto; /* Add a scrollbar if the content overflows vertically */
   padding: 20px; /* Add padding as needed */
-  
   background: #fff;
 }
 
@@ -25,6 +24,7 @@ body {
 }
 
 #userInput{
-  width: 1000;
+  width: 800px;
+  padding: 20px;
   
 }
