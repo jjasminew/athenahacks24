@@ -1,83 +1,68 @@
-html {
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #EBC9FF;
+  color: #3C096C;
+  text-align: center;
+  gap: 20em;
+}
 
-    background: #EBC9FF;
-    color: #EBC9FF;
-  }
+.title {
+  text-align: center;
+  color: #3C096C;
+  font-size: 125px;
+  padding: 30px;
+  margin-bottom: 0;
+  font-family: "Josefin Sans", serif;
+}
+
+.container{
+  display: flex;
   
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: "Josefin Sans", sans-serif;
-  }
-  
-  h1 {
-    color: #5A189A;
-    text-align: center;
-    font-weight: 500;
-    font-size: 50px;
-  }
-  
-  #slider {
-    position: relative;
-    overflow: hidden;
-    margin: 20px auto 0 auto;
-    border-radius: 4px;
-  }
-  
-  #slider ul {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    height: 200px;
-    list-style: none;
-  }
-  
-  #slider ul li {
-    position: relative;
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 0;
-    width: 500px;
-    height: 300px;
-    background: #5A189A;
-    text-align: center;
-    line-height: 300px;
-  }
-  
-  a.control_prev, a.control_next {
-    position: absolute;
-    top: 40%;
-    z-index: 999;
-    display: block;
-    padding: 4% 3%;
-    width: auto;
-    height: auto;
-    background: #EBC9FF;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-  a.control_prev:hover, a.control_next:hover {
-    opacity: 1;
-  }
-  
-  a.control_prev {
-    border-radius: 0 2px 2px 0;
-  }
-  
-  a.control_next {
-    right: 0;
-    border-radius: 2px 0 0 2px;
-  }
-  
-  .slider_option {
-    position: relative;
-    margin: 10px auto;
-    width: 160px;
-    font-size: 18px;
-  }
+  justify-content: center;
+  gap: 2em;
+}
+
+.info{
+  font-family: "Josefin Sans", sans-serif;
+  color: #EBC9FF;
+  text-align: center;
+  gap: 20em;
+  font-size: 25px;
+}
+.shape{
+  text-align:center;
+  background-color:#3C096C;
+  box-shadow: 5px 5px 25px #3C096C;
+  width:300px;
+  height:400px;
+  line-height:60px;
+  color: #EBC9FF;
+  padding: 10px 30px;
+  margin-left:30px;
+  border-radius: 10px;
+}
+
+.shape1{
+  text-align:center;
+  background-color:#3C096C;
+  box-shadow: 5px 5px 25px #3C096C;
+  width:300px;
+  height:400px;
+  line-height:60px;
+  color: #EBC9FF;
+  margin:0px auto;
+  position:relative;
+}
+
+.shape2{
+  text-align:center;
+  background-color:#3C096C;
+  box-shadow: 5px 5px 25px #3C096C;
+  width:300px;
+  height:400px;
+  line-height:60px;
+  color: #EBC9FF;
+  margin-right:10%;
+  position:relative;
+  float: left;
+}
